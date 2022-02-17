@@ -3,6 +3,12 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
+parts:
+  - caption: Setup
+    chapters:
+    - file: setup
+  - caption: Tutorials
+    chapters:
+    - file: 0_intro
+    - file: 1_spikesorting
+    - file: 2_curation
